@@ -1,0 +1,76 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+
+.hero-area{
+    background: linear-gradient(dodgerblue,#0070DF);
+    text-align: center;
+    padding: 15px;
+    
+    min-height: 100vh;
+    
+    @include media-width(650){ min-height: 40vh }
+    
+    display: flex;
+    margin-bottom: 8em;
+    h1,p{
+        color: #FFFFFF;
+    }
+    .hero-content{
+        margin: auto;
+        text-transform: uppercase;
+        span{
+            background-color: #fff;
+            color: dodgerblue;
+            padding: 0 2px;
+            border-radius: 3px;
+        }
+        h1{
+            font-size: 6em;
+            text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            @include media-width(1109){font-size: 5em;}
+            @include media-width(932){font-size: 4em;}
+            @include media-width(754){font-size: 3.5em;}
+            @include media-width(600){font-size: 2.5em;}
+        }
+        p{
+            font-size: 2em;
+            line-height: 2em;
+            @include media-width(600){font-size: 1.3em;}
+        }
+    }
+}
+
+
+.page-title{
+	padding: 15px 0;
+	margin: 35px auto;
+	h1{
+		font-size: 75px;
+		@include media-width(1999){
+			font-size: 60px;
+		}
+		@include media-width(991){
+			font-size: 45px;
+		}
+		@include media-width(717){
+			font-size: 40px;
+		}
+		@include media-width(642){
+			font-size: 30px;
+		}
+		@include media-width(400){
+			font-size: 25px;
+		}
+		@include media-width(341){
+			font-size: 20px;
+		}
+	}
+	@include media-width(599){
+		width: 95%;
+	}
+}
+
+
+

@@ -1,0 +1,3 @@
+# substr_count()
+---
+

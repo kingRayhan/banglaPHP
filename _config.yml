@@ -1,0 +1,44 @@
+# Basic Info
+# ------------------------------------
+#title: Your awesome title
+#email: your-email@domain.com
+
+# SEO informations
+# ------------------------------------
+siteTitle: মাতৃভাষায় পিএইচপি
+
+keyWords: "HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,source code,colors,demos,tips"
+
+description: "PHP tutorial in benguli language"
+
+
+# Website URL
+# ------------------------------------
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Markdown preprocessor system
+# ------------------------------------
+markdown: kramdown
+
+
+
+# Doc Articles pages
+# ------------------------------------
+docURL: doc
+collections:
+  docs:
+    permalink: doc/:path/
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: doc-page
+
+
+# Permalink settings  
+# ------------------------------------
+permalink: pretty

@@ -1,0 +1,26 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $dark-grey;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $base-font-size;
+}
+p{
+	color: $dark-grey;
+}
+a{
+	color: $a-color;
+}
+h1, h2, h3, h4, h5, h6{
+  color: $dark-grey;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+dd {
+    margin-left: 25px;
+}

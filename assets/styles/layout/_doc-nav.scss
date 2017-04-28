@@ -1,0 +1,39 @@
+.doc-nav-section-title{
+    font-size: 1.2em;
+}
+
+.nav-docs{
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        ul{
+            margin-left: 15px;
+        }
+    }
+    li {
+        border-left: 1px solid #ddd;
+        padding-left: 8px;
+        
+        position: relative;
+        &:before{
+            content: "";
+            height: 2px;
+            width: 7px;
+            background: #ddd;
+            top: 11px;
+            left: 0;
+            position: absolute;
+        }
+        a{
+            color: #2C3E50;
+            font-size: 18px;
+        }
+    }
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 10px;
+  animation: 300ms linear 0s normal none 1 running fadeInDown;
+}

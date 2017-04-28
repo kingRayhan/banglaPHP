@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+
+// Try it button
+
+.try-it{
+    background: $color-scheme;
+    padding: 5px 15px;
+    display: inline-block;
+    
+    border-radius: 3px;
+    color: #FFF;
+    
+    &:hover{
+        text-decoration: none;
+        opacity: .8;
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,27 @@
+.page-content{
+    
+}
+
+.article-content-wrapper{
+    font-size: 1.4em;
+    line-height: 2em;
+    background-color: #fff;
+    padding: 15px;
+}
+.article-page-title{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+.anchorjs-link {
+  display: inline-block;
+  background: url('../assets/images/hyperlink.svg') no-repeat;
+  margin-left: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+
+code{
+    color: $color-scheme;
+}

@@ -1,0 +1,128 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+/** --------------
+	borders 
+------------------ */
+@for $i from 1 through 20 {
+	.border-#{$i}{ border: #{$i}px solid; }
+}
+/** --------------
+	border right
+------------------ */
+@for $i from 1 through 20 {
+	.br-#{$i}{ border-right: #{$i}px solid; }
+}
+/** --------------
+	border left
+------------------ */
+@for $i from 1 through 20 {
+	.bl-#{$i}{ border-left: #{$i}px solid; }
+}
+/** --------------
+	border top
+------------------ */
+@for $i from 1 through 20 {
+	.bt-#{$i}{ border-top: #{$i}px solid; }
+}
+/** --------------
+	border bottom
+------------------ */
+@for $i from 1 through 20 {
+	.bb-#{$i}{ border-bottom: #{$i}px solid; }
+}
+
+/** --------------
+	Paddings
+------------------ */
+
+@for $i from 1 through 50 {
+	.padding-#{$i}{ padding: #{$i}px; }
+}
+
+/** --------------
+	Padding right
+------------------ */
+@for $i from 1 through 50{
+	.pr-#{$i}{ padding-right: #{$i}px; }
+}
+/** --------------
+	Padding left
+------------------ */
+@for $i from 1 through 50{
+	.pl-#{$i}{ padding-left: #{$i}px }
+}
+/** --------------
+	Padding top
+------------------ */
+@for $i from 1 through 50{
+	.pt-#{$i}{ padding-top: #{$i}px }
+}
+
+/** --------------
+	Padding bottom
+------------------ */
+@for $i from 1 through 50{
+	.pb-#{$i}{ padding-bottom: #{$i}px }
+}
+
+
+/** --------------
+	Margins
+------------------ */
+
+@for $i from 1 through 50 {
+	.margin-#{$i}{ margin: #{$i}px; }
+}
+
+/** --------------
+	Margin right
+------------------ */
+@for $i from 1 through 50{
+	.mr-#{$i}{ margin-right: #{$i}px }
+}
+/** --------------
+	Margin left
+------------------ */
+@for $i from 1 through 50{
+	.ml-#{$i}{ margin-left: #{$i}px }
+}
+/** --------------
+	Margin top
+------------------ */
+@for $i from 1 through 50{
+	.mt-#{$i}{ margin-top: #{$i}px }
+}
+
+/** --------------
+	Margin bottom
+------------------ */
+@for $i from 1 through 50{
+	.mb-#{$i}{ margin-bottom: #{$i}px }
+}
+
+/** round image */
+img.img-round { border-radius: 100%; }
+
+/** list css */
+ul.list-unstyled { margin: 0; padding: 0; list-style: none}
+
+ul.linear-list { margin: 0; padding: 0; list-style: none; text-align: left; }
+
+ul.linear-list li { display: inline-block; }
+
+/** Centered elements */
+.center { margin: 0 auto; float: none; }
+
+/** Text style */
+.text-center { text-align: center !important; }
+
+/** Text align **/
+.text-right { text-align: right; }
+
+.text-left { text-align: left; }
+
+.text-light { font-weight: light; }
+
+.text-bold { font-weight: bold; }
