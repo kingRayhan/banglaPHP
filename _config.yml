@@ -14,7 +14,7 @@ description: "PHP tutorial in benguli language"
 
 # Website URL
 # ------------------------------------
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "banglaPHP" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
